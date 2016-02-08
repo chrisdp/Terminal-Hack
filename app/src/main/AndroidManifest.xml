@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.chrisdwyerperkins.www.terminalhack" >
+
+    <uses-sdk android:minSdkVersion="19"
+        android:maxSdkVersion="23"></uses-sdk>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        android:versionCode="1"
+        android:versionName="1.0.0">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="optly4059546151" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".PopUp"
+            android:theme="@style/PopupTheme">
+
+            <intent-filter>
+                <action android:name="com.chrisdwyerperkins.www.PopUp" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="1a64440d75755f6a3d1d4cb485654579f70802c2" />
+    </application>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+</manifest>

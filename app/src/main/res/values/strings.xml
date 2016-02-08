@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Terminal Hack</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="word_list">
+       <item>SHAMMES</item><item>GRANDEE</item><item>PRIMMER</item><item>GRAVIES</item><item>DRAWBAR</item><item>CREAMER</item><item>FROGMAN</item><item>GRANDAD</item><item>GLAMORS</item><item>GRATINS</item><item>GOODMAN</item><item>GRUNTER</item><item>ECTHYMA</item><item>RETRIMS</item><item>EMBLEMS</item>
+       <item>ESTROUS</item><item>UPTREND</item><item>EXCRETA</item><item>IMPRESA</item><item>EXTORTS</item><item>ENTRIES</item><item>EUGLENA</item><item>EXOGAMY</item><item>EXARCHY</item><item>BRAZIER</item><item>CLINGER</item><item>CHOKIER</item><item>WEIGHER</item><item>SWINDLE</item><item>DRINKER</item><item>EBONIES</item><item>MEINIES</item>
+       <item>SHELLER</item><item>VEINING</item><item>FRANKER</item><item>LINICS</item>
+    </string-array>
+    <string name="lbl_header_line_1">ROBCO INDUSTRIES (TM) TERMALINK PROTOCOL</string>
+    <string name="lbl_header_line_2">ENTER PASSWORD NOW</string>
+    <string name="lbl_attempts">ATTEMPT(S) LEFT:</string>
+    <string name="attempt_block">█</string>
+    <string name="feedback_denied">&gt;Entry denied</string>
+    <string name="feedback_likeness">&gt;correct.</string>
+    <string name="Feedback_match_1">&gt;Exact match!</string>
+    <string name="Feedback_match_2">&gt;Please wait while system</string>
+    <string name="Feedback_match_3">&gt;is accessed.</string>
+    <string name="Feedback_match_4">&gt;Proceed to new game?</string>
+    <string name="popup_win_1">&gt;CONGRATULATIONS!</string>
+    <string name="popup_win_2">&gt;YOU WON!</string>
+    <string name="popup_win_3">&gt;START A NEW GAME</string>
+    <string name="popup_win_4">&gt;WITH THE UPPER RIGHT</string>
+    <string name="popup_win_5">&gt;NEW GAME" BUTTON!</string>
+    <string name="pop_up_win">&gt;CONGRATULATIONS!\n&gt;Exact match!\n&gt;Please wait while system\n&gt;is accessed.</string>
+    <string name="pop_up_lose">&gt;TERMINAL LOCKED\n&gt;PLEASE CONTACT AN ADMINISTRATOR</string>
+    <string name="pop_up_new_game">&gt;Proceed to new game?</string>
+
+    <string name="com.optimizely.api_key" translatable="false">c9304590430b9796a9bafd7ce7c69b77:74f9590e</string>
+    <string name="new_game">NEW GAME</string>
+    <string name="btn_back">OK</string>
+    <string name="btn_no">NO</string>
+</resources>
